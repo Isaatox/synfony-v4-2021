@@ -19,8 +19,8 @@
     </thead>
     <tbody>
 
-    {% for i in 0..m %}
-    <tr><td>{{i}}</td><td>{{n}}</td><td>{{n*i}}</td></tr>
+    {% for calculation in calculations %}
+    <tr><td>{{calculation.indice}}</td><td>{{n}}</td><td>{{calculation.result}}</td></tr>
     {% endfor %}
 
     </tbody>
